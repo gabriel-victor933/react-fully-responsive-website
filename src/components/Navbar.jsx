@@ -26,7 +26,7 @@ export default function Navbar(){
     )
 }
 
-const Header = styled.div`
+const Header = styled.header`
 
     width: 100%;
     height: 80px;
@@ -38,6 +38,7 @@ const Header = styled.div`
     padding: 0px 60px;
     box-sizing: border-box;
     position: fixed;
+    z-index: 10;
     top: 0px;
     left: 0px;
     

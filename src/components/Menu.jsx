@@ -70,16 +70,16 @@ const Animeout = css`
 `;
 
 const  Menumobile = styled.div`
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     width: 100%;
     height: calc(100vh - 80px);
     left: 0px;
     top: 80px;
     background-color: black;
-    opacity: 0.9;
+    opacity: 0.95;
     display: flex;
     flex-direction: column;
-    z-index: 1;
     ${props => (!props.open ? Animeout : Animein)}
 
     div {
