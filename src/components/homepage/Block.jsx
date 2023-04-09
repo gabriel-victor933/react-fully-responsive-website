@@ -74,6 +74,11 @@ const Capa = styled.div`
             background-color:   transparent;
             color: white;
 
+            &:hover {
+                background-color:   white;
+                color: black;
+            }
+
         }
 
         &:last-child {
@@ -82,6 +87,11 @@ const Capa = styled.div`
             display: flex;
             align-items: center;
             justify-content: center;
+
+            &:hover {
+                background-color:   black;
+                color: white;
+            }
         }
 
     }
